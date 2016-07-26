@@ -14,13 +14,13 @@
 	
 //zSpecialMove's CONFIGURATION
 	
-	var defaultKey		= 'qaD0dFAoHM7uWgaU0CDkFi1npsdyu9B8LG83WFNZ19XHcbAQ', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [1279051540], // Comma separated array of Xively Feed ID numbers
-		applicationName	= 'Visualisierung FBH-Anhänger', // Replaces Xively logo in the header
-		dataDuration	= '20days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
-		dataColor	= 'ff0000', // CSS HEX value of color to represent data (omit leading #)
-		hideForm	= 1; // To hide input form use value of 1, otherwise set to 0
+	var defaultKey		= '', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
+		applicationName	= '', // Replaces Xively logo in the header
+		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= , // Default interval for data to be displayed (in seconds)
+		dataColor	= '', // CSS HEX value of color to represent data (omit leading #)
+		hideForm	= 0; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
 
