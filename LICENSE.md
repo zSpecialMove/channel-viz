@@ -1,6 +1,6 @@
 ###This library is Open Source, under the BSD 3-Clause license.
 
-Copyright © 2016 zSpecialMovebluepun All rights reserved.
+Copyright © 2016 zSpecialMove
 
 All rights reserved.
 
