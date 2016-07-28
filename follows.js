@@ -17,8 +17,8 @@
 		var defaultKey	= 'qaD0dFAoHM7uWgaU0CDkFi1npsdyu9B8LG83WFNZ19XHcbAQ', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1279051540], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Visualisierung FBH-Anhänger', // Replaces Xively logo in the header
-		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterva	= 10800, // Default interval for data to be displayed (in seconds)
+		dataDuration	= '20days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterva	= 1800, // Default interval for data to be displayed (in seconds)
 		dataColor	= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm	= 1; // To hide input form use value of 1, otherwise set to 0
 
@@ -88,6 +88,7 @@
 					if(duration == '6hours') diff = 21600000;
 					 if(duration == '1day') diff = 86400000;
 					 if(duration == '1week') diff = 604800000;
+					 if(duration == '20days') diff = 1728000000;
 					 if(duration == '1month') diff = 2628000000;
 					 if(duration == '90days') diff = 7884000000;
 					then.setTime(now.getTime() - diff);
