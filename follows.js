@@ -342,6 +342,12 @@
 						updateFeeds(data.id, thisFeedDatastreams, '1week', 900);
 						return false;
 					});
+					
+					$('#feed-' + data.id + ' .duration-20').click(function() {
+						$('#loadingData').foundation('reveal', 'open');
+						updateFeeds(data.id, thisFeedDatastreams, '20days', 1800);
+						return false;
+					});
 
 					$('#feed-' + data.id + ' .duration-month').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
